@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "bun build src/client.ts --target node --outdir dist",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "start": "bun run src/server.ts"
   },
   "files": [
     "dist"
