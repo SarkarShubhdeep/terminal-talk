@@ -1,6 +1,9 @@
 {
   "name": "terminal-talk",
   "module": "src/server.ts",
+  "publishConfig": {
+    "provenance": true
+  },
   "type": "module",
   "version": "1.0.1",
   "private": false,
