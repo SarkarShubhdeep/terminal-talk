@@ -5,7 +5,7 @@ import { stdin as input, stdout as output } from 'process';
 
 // Configuration
 // Default to localhost for development, but customizable via ENV
-const DEFAULT_SERVER = process.env.TERMINAL_TALK_SERVER || 'http://localhost:3000';
+const DEFAULT_SERVER = process.env.TERMINAL_TALK_SERVER || 'https://terminal-talk-production.up.railway.app';
 
 async function main() {
     console.log('\n✨ Welcome to Terminal Talk! ✨\n');
