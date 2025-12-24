@@ -78,6 +78,8 @@ If you are developing locally or self-hosting, you need to run the WebSocket ser
 You can point the client to a different server using an environment variable:
 
 ```bash
-export TERMINAL_TALK_SERVER="https://your-terminal-talk-server.railway.app"
-terminal-talk start
-```
+    export TERMINAL_TALK_SERVER="https://your-terminal-talk-server.railway.app"
+    terminal-talk start
+    ```
+
+For a detailed guide on **Publishing to NPM** and **Deploying to Railway**, see [PUBLISHING_AND_DEPLOYMENT.md](PUBLISHING_AND_DEPLOYMENT.md).
